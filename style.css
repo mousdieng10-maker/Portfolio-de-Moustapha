@@ -142,6 +142,57 @@ nav{
     box-shadow:1px 1px 10px rgba(0, 0, 0, 0.377);
     object-fit:cover;
 }
+.pricing-section{
+    max-width:60rem;
+    margin:4em auto 0;
+    text-align:center;
+}
+.pricing-intro{
+    max-width:44em;
+    margin:1em auto 1.75em;
+    color:rgba(241, 241, 241, .82);
+    font-size:1.1em;
+    line-height:1.6;
+}
+.pricing-card{
+    max-width:38rem;
+    margin:0 auto;
+    padding:2em;
+    border:1px solid rgba(153, 117, 255, .45);
+    border-radius:1.25em;
+    background:linear-gradient(120deg, rgba(42, 0, 194, .28), rgba(70, 0, 128, .35));
+    box-shadow:0 10px 30px rgba(0, 0, 0, .2);
+    text-align:left;
+}
+.pricing-label{
+    color:rgb(190, 160, 255);
+    font-size:.9em;
+    font-weight:700;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+}
+.pricing-card h3{
+    margin-top:.4em;
+    font-size:2em;
+}
+.pricing-card > p:not(.pricing-label){
+    margin-top:.75em;
+    color:rgba(241, 241, 241, .82);
+    line-height:1.6;
+}
+.pricing-card ul{
+    display:grid;
+    gap:.75em;
+    margin:1.5em 0;
+    padding-left:1.4em;
+    line-height:1.5;
+}
+.pricing-card li::marker{
+    color:rgb(190, 160, 255);
+}
+.pricing-card .contact-button{
+    width:100%;
+}
 .contact-section{
     max-width:60rem;
     margin:5em auto 0;
@@ -567,6 +618,22 @@ header{
     .contact-section{
         margin-top:3em;
         padding:1.5em 1.25em;
+    }
+
+    .pricing-section{
+        margin-top:3em;
+    }
+
+    .pricing-intro{
+        font-size:1em;
+    }
+
+    .pricing-card{
+        padding:1.5em 1.25em;
+    }
+
+    .pricing-card h3{
+        font-size:1.7em;
     }
 
     .contact-section > p{
