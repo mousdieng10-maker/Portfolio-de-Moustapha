@@ -457,8 +457,10 @@ header{
 
 @media (max-width:600px){
     .scrollable{
-        height:50em; 
+        height:auto; 
+        gap:3em;
         overflow-x:scroll;
+        width:100%;
     }
     nav{
         padding:1em;
