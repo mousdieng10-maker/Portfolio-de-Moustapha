@@ -160,7 +160,7 @@ nav{
     padding:2em;
     border:1px solid rgba(153, 117, 255, .45);
     border-radius:1.25em;
-    background:linear-gradient(120deg, rgba(42, 0, 194, .28), rgba(70, 0, 128, .35));
+    background:linear-gradient(120deg, rgba(42, 0, 194, .28), rgba(80, 0, 146, 0.35));
     box-shadow:0 10px 30px rgba(0, 0, 0, .2);
     text-align:left;
 }
