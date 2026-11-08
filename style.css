@@ -278,7 +278,7 @@ footer{
     display:flex;
     flex-direction:column;
     gap:1.25em;
-    height:40em;
+    height:auto;
     min-height:25em;
     justify-content:flex-start;
     border-top:5px solid purple; 
@@ -301,7 +301,7 @@ footer{
     display:flex;
     flex-direction:column;
     gap:.75em;
-    height:20em;
+    height:auto;
 }
 .project-meta > p{
     line-height:1.5;
