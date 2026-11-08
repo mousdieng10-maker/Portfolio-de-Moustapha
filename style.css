@@ -508,7 +508,7 @@ header{
 
 @media (max-width:600px){
     .scrollable{
-        height:auto; 
+        height:fit-content; 
         gap:3em;
         overflow-x:scroll;
         width:100%;
